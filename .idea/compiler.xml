@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ClonePracticeJava" />
         <module name="ClonePracticeJava2" />
+        <module name="MutableAndImmutableObjects" />
       </profile>
     </annotationProcessing>
   </component>
