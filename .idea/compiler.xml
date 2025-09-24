@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="MutableAndImmutableObjects" />
         <module name="ClonePracticeJava" />
         <module name="ClonePracticeJava2" />
-        <module name="MutableAndImmutableObjects" />
+        <module name="RecordJavaPractice" />
       </profile>
     </annotationProcessing>
   </component>
