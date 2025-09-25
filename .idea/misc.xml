@@ -10,6 +10,12 @@
         <option value="$PROJECT_DIR$/RecordJavaPractice/pom.xml" />
         <option value="$PROJECT_DIR$/ArraysJava/pom.xml" />
         <option value="$PROJECT_DIR$/StringJava/pom.xml" />
+        <option value="$PROJECT_DIR$/AbstractJava/pom.xml" />
+        <option value="$PROJECT_DIR$/SealedInterfaceJava/pom.xml" />
+        <option value="$PROJECT_DIR$/SingletonPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/CollectionsJava/pom.xml" />
+        <option value="$PROJECT_DIR$/ExceptionHandling/pom.xml" />
+        <option value="$PROJECT_DIR$/Generics/pom.xml" />
       </list>
     </option>
   </component>

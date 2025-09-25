@@ -6,13 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MutableAndImmutableObjects" />
-        <module name="StringJava" />
         <module name="ClonePracticeJava" />
         <module name="ClonePracticeJava2" />
         <module name="RecordJavaPractice" />
+        <module name="SingletonPattern" />
+        <module name="MutableAndImmutableObjects" />
+        <module name="CollectionsJava" />
+        <module name="ExceptionHandling" />
+        <module name="StringJava" />
+        <module name="AbstractJava" />
+        <module name="Generics" />
         <module name="ArraysJava" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SealedKeywordJava" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>

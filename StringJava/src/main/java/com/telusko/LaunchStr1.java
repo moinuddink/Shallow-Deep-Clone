@@ -12,5 +12,12 @@ public class LaunchStr1 {
         System.out.println(str1 == str2);
         System.out.println(str1.equals(str2));
         System.out.println(str3 == str4);
+
+        String str5 = "Mohammad Ibrahim Khan";
+        String str6 = "Mohammad Moinuddin Khan";
+        int res = str5.compareTo(str6);
+        System.out.println(res);
+
+
     }
 }
