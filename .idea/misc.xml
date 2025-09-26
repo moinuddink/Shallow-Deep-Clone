@@ -16,6 +16,11 @@
         <option value="$PROJECT_DIR$/CollectionsJava/pom.xml" />
         <option value="$PROJECT_DIR$/ExceptionHandling/pom.xml" />
         <option value="$PROJECT_DIR$/Generics/pom.xml" />
+        <option value="$PROJECT_DIR$/FunctionalProgrammingJava/pom.xml" />
+        <option value="$PROJECT_DIR$/FunctionalProgramming/pom.xml" />
+        <option value="$PROJECT_DIR$/OptionalJavaProgramming/pom.xml" />
+        <option value="$PROJECT_DIR$/LambdaProgrammingJava/pom.xml" />
+        <option value="$PROJECT_DIR$/MethodReferences/pom.xml" />
       </list>
     </option>
   </component>

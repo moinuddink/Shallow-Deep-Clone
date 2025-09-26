@@ -1,0 +1,115 @@
+1.In Java we can have method without body/implemenatation however such method must be declared with abstract keyword and
+such methods are also referred as abstract methods in java
+
+2.In a class if one method is also abstract then its must for us to declare class also abstract
+
+3.we cannot create object of abstract class
+
+4.abstract class can have both abstract method and normal method with body(concrete methods)
+
+5.we can declare class as abstract, we can declare method as abstract but we cannot have variable as abstract
+
+6.Constructor cannot be abstract as it doesn't get inherited and cannot be overridden
+
+7.static methods cann't be abstract as we cann't override them in child class
+
+
+Rules for Abstract Classes in Java
+
+1. Declaration
+
+Use the abstract keyword:
+
+abstract class Shape { }
+
+2. Instantiation
+
+Abstract classes cannot be instantiated directly.
+
+Shape s = new Shape(); // ❌ Compilation error
+
+3. Abstract Methods
+
+An abstract class can have abstract methods (methods without a body).
+
+If a class has at least one abstract method, the class itself must be abstract.
+
+abstract class Shape {
+    abstract void draw(); // no body
+}
+
+4. Concrete Methods
+
+An abstract class can also have concrete (implemented) methods.
+
+abstract class Shape {
+    abstract void draw();
+    void info() { System.out.println("This is a shape"); } // ✅ allowed
+}
+
+5. Constructors
+
+Abstract classes can have constructors.
+
+They are used when subclasses are instantiated.
+
+abstract class Shape {
+    Shape() { System.out.println("Shape constructor called"); }
+}
+
+6. Variables
+
+Abstract classes can declare variables (instance or static) just like normal classes.
+
+7. Subclasses
+
+A concrete subclass must implement all abstract methods of the abstract parent.
+
+class Circle extends Shape {
+    @Override
+    void draw() { System.out.println("Drawing circle"); }
+}
+
+
+If a subclass does not implement all abstract methods, it must itself be declared abstract.
+
+8. Access Modifiers
+
+Abstract methods can be public, protected, or package-private (default).
+
+They cannot be private (because then subclasses couldn’t override them).
+
+They also cannot be final or static (final = cannot override, static = not polymorphic).
+
+9. Polymorphism
+
+Abstract class references can point to subclass objects:
+
+Shape s = new Circle(); // ✅
+s.draw(); // Runtime polymorphism
+
+10. Interfaces vs Abstract Classes
+
+Abstract classes can have state (fields/constructors).
+
+Interfaces (before Java 8) were only for method signatures, but now they can also have default and static methods.
+
+Use abstract class when you want to share both state and behavior across related classes.
+
+Use interfaces for defining contracts across unrelated classes.
+
+🔑 Quick Checklist
+
+When writing an abstract class:
+
+ Use abstract keyword in class declaration.
+
+ Use abstract keyword for methods without body.
+
+ Do not provide body for abstract methods.
+
+ Provide constructors if needed.
+
+ If subclass does not implement all abstract methods → declare it abstract too.
+
+ Remember: No object creation with new AbstractClass().

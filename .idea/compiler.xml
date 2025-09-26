@@ -8,15 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ClonePracticeJava" />
         <module name="ClonePracticeJava2" />
-        <module name="RecordJavaPractice" />
         <module name="SingletonPattern" />
+        <module name="OptionalJavaProgramming" />
         <module name="MutableAndImmutableObjects" />
-        <module name="CollectionsJava" />
         <module name="ExceptionHandling" />
+        <module name="LambdaProgrammingJava" />
+        <module name="MethodReferences" />
+        <module name="ArraysJava" />
+        <module name="FunctionalProgrammingJava" />
+        <module name="RecordJavaPractice" />
+        <module name="CollectionsJava" />
+        <module name="FunctionalProgramming" />
         <module name="StringJava" />
         <module name="AbstractJava" />
         <module name="Generics" />
-        <module name="ArraysJava" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

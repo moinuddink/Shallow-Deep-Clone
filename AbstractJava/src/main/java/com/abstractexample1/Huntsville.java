@@ -13,18 +13,25 @@ public  abstract class Huntsville extends AbstractA {
     /*
     * you can't declare instrace variables, private, local, class variables as abstract
     *
+    * Declaring a class as both abstract and final crates a direct contradiction
+    *
     * in the super class constructor can't be private becuase in the base/sub class of the contructor there is a super
     * keyword present by default it during the process of inheritance it will call the constructor
     * of the parent class
     *
+    * we can't create objects of abstract class
     * there can't be abstract static methods methods
     *
     * you can't declare the class as final because the implemenenting  or base class needs to
     * implements the methods of abstract class
     *
+    *
+    *
     * */
     // when using the extends keywords and you don't want to implments methods present in the abstract
     //make the class as abstract
+
+
 
     /*
     * */
