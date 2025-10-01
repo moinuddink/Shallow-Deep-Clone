@@ -21,7 +21,18 @@
         <option value="$PROJECT_DIR$/OptionalJavaProgramming/pom.xml" />
         <option value="$PROJECT_DIR$/LambdaProgrammingJava/pom.xml" />
         <option value="$PROJECT_DIR$/MethodReferences/pom.xml" />
+        <option value="$PROJECT_DIR$/ComparatorVsComparale/pom.xml" />
+        <option value="$PROJECT_DIR$/CompletableFeatureJava/pom.xml" />
+        <option value="$PROJECT_DIR$/ConstructorReference/pom.xml" />
+        <option value="$PROJECT_DIR$/EnumAndAnnotations/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaInterfaces/pom.xml" />
+        <option value="$PROJECT_DIR$/DesignPattern/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/DesignPattern/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21_PREVIEW" project-jdk-name="corretto-21" project-jdk-type="JavaSDK">

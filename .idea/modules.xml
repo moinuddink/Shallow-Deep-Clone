@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Cloning.iml" filepath="$PROJECT_DIR$/.idea/Cloning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns/src/design-patterns.iml" filepath="$PROJECT_DIR$/design-patterns/src/design-patterns.iml" />
     </modules>
   </component>
 </project>

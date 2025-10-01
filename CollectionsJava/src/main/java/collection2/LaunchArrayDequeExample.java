@@ -13,6 +13,7 @@ public class LaunchArrayDequeExample {
         * 1) Interview question-->index based insertion is not allowed
         * if you want to do perform the insertion at the front end and rear end where index based insertion is not allowed which collection
         * class will you use -->ArrayDeque
+        * ArrayDeque,PriorityQueue,TreeSet,HashSet,LinkedHashSet indexedbased insertion is not allowed
         * */
         ArrayDeque arrayDeque = new ArrayDeque();
         arrayDeque.add(4);

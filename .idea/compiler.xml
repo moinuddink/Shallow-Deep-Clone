@@ -10,12 +10,17 @@
         <module name="ClonePracticeJava2" />
         <module name="SingletonPattern" />
         <module name="OptionalJavaProgramming" />
+        <module name="ComparatorVsComparale" />
         <module name="MutableAndImmutableObjects" />
         <module name="ExceptionHandling" />
+        <module name="JavaInterfaces" />
         <module name="LambdaProgrammingJava" />
+        <module name="ConstructorReference" />
         <module name="MethodReferences" />
         <module name="ArraysJava" />
         <module name="FunctionalProgrammingJava" />
+        <module name="CompletableFeatureJava" />
+        <module name="EnumAndAnnotations" />
         <module name="RecordJavaPractice" />
         <module name="CollectionsJava" />
         <module name="FunctionalProgramming" />
@@ -25,6 +30,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="DesignPattern" target="21" />
       <module name="SealedKeywordJava" target="21" />
     </bytecodeTargetLevel>
   </component>

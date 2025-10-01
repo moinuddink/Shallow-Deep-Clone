@@ -9,7 +9,8 @@ public class LaunchLinkedList {
 
         /*
         * LinkedList Maintains the order of insertion
-        *
+        * ArrayList indexed based access is allowed
+          * LinkedList indexed based access is allowed
         * */
         LinkedList linkedList = new LinkedList();
         linkedList.add(44);

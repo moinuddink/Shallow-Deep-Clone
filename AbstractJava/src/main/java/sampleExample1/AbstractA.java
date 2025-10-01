@@ -12,12 +12,14 @@ public abstract class AbstractA {
     If the extending class is concrete class then we need to implement all the methods present in parent class of abstract or else declare the subclass as abstract
     */
 
+    public AbstractA() {
+        System.out.println("Here is the abstraction class in AbstractA");
+    }
 
     public abstract void exampleOfAbs();
 
-    public int scoreOfCricket() {
+    public void scoreOfCricket() {
         int score = 0;
-        return score;
     }
 
 

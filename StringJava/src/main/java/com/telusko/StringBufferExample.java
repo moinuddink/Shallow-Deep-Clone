@@ -11,7 +11,7 @@ public class StringBufferExample {
         System.out.println(bs);
 
         StringBuffer sb1 = new StringBuffer();
-        System.out.println(sb1.capacity());
+        System.out.println("Capacity"+sb1.capacity());
 
         StringBuilder bs1 = new StringBuilder();
        StringBuilder bsnew= bs1.append("Telusko");

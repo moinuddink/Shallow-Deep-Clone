@@ -8,6 +8,8 @@ public class LuanchArrayList {
         //ArrayList ->Dynamic array DS
 
         /*
+        * ArrayList indexed based access is allowed
+        * LinkedList indexed based access is allowed
         * ArrayList maintains the order of insertion
         * */
         ArrayList aList = new ArrayList(); //-->aList is the collection
