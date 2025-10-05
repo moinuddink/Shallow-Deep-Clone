@@ -27,6 +27,19 @@
         <option value="$PROJECT_DIR$/EnumAndAnnotations/pom.xml" />
         <option value="$PROJECT_DIR$/JavaInterfaces/pom.xml" />
         <option value="$PROJECT_DIR$/DesignPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/DIandIOC/pom.xml" />
+        <option value="$PROJECT_DIR$/MultiThreading/pom.xml" />
+        <option value="$PROJECT_DIR$/StaticKeywordConcept/pom.xml" />
+        <option value="$PROJECT_DIR$/StreamAPIJava/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCoreTeluskoJava/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCoreXMLAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCoreXMLBFACTelusko/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCoreAnnotationAutowire/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCoreTeluskoXMLNameSpace/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCoreOneshotYoutubeHyderabbas/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCoreTshpedSkills/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCore3TShapedSkills/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAnnotationUsingJava/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

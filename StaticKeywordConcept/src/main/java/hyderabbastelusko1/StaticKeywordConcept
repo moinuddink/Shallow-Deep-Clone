@@ -1,0 +1,58 @@
+StaticKeyword
+static varaiable -->Class level variable
+static block -->static intialization blcok-->during the class loading itself
+static method
+
+when ever a class loaded into jvm the memory for static varaiable  will be allocated on heap area
+
+java app-->java compiler --> byte code (.class)
+
+JVM
+1)Class Loader subsystem
+2)Runtime Data area
+3)Execution Engine
+
+.class file(Byte Code) ->JVM(1,2,3)
+
+1)Class Loader subsystem
+Loading
+Linking
+Initialization
+
+2)Runtime Data area
+
+
+Point:
+After loading during that process the static variable memory will be allocated on heap area and any static block that will be executed
+
+before java 7 the memory will be allocated on method area
+after java 7 the static memory will be allocated on heap area
+
+
+Class Demo
+{
+
+static variables
+instance variables
+static block
+java initialization block
+constructors
+methos
+static methods
+
+}
+
+JVM starts the execution from a class which has the main method
+
+KeyPoint
+Before the body of constructor get executed even the this and super methods it executes normal java block(non static block)
+{
+System.out.println("Java Block --> Non Static");
+}
+
+Interview ->when you have to use the static variable
+Ans)whenever a common copy of data has to be shared among all the objects of a class we can go with static varaiable
+
+constant values we go with static variables
+
+

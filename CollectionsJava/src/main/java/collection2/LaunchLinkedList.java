@@ -19,7 +19,7 @@ public class LaunchLinkedList {
         System.out.println(linkedList);
         linkedList.addFirst(44);
         linkedList.addFirst(null);
-        System.out.println(linkedList);
+        System.out.println("1 :"+linkedList);
 
         linkedList.offer("Java");
         linkedList.offerFirst("Java");
@@ -27,7 +27,7 @@ public class LaunchLinkedList {
         System.out.println(linkedList);
 
 
-        System.out.println(linkedList.peekFirst());
+        System.out.println("What is happening here in peek First :"+linkedList.peekFirst());
         System.out.println(linkedList.peekLast());
         System.out.println(linkedList);
 

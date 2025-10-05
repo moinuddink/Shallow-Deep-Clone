@@ -1,0 +1,23 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xsi:schemaLocation="-->
+<!--        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">-->
+
+<!--    &lt;!&ndash; bean definitions here &ndash;&gt;-->
+<!--    <bean id ="sb" class="service.SpringBoot" primary="true"/>&lt;!&ndash;//tShapedSkills&ndash;&gt;-->
+<!--    <bean id ="java" class="service.Java"/>-->
+<!--    <bean id="ts" class="service.TShapedSkills">&lt;!&ndash;//java &ndash;&gt;-->
+<!-- &lt;!&ndash;   <bean id ="ts" class="service.SpringBoot">-->
+<!--    <property ref="java" name="course"></property>&ndash;&gt;-->
+<!--    &lt;!&ndash;<bean id="ts" class="service.TShapedSkills" autowire="byType">&ndash;&gt;-->
+<!--    &lt;!&ndash;<bean id="ts" class="service.TShapedSkills" autowire="constructor">&ndash;&gt;-->
+<!--        <property ref="java" name="course" ></property>-->
+<!--       &lt;!&ndash; <constructor-arg ref="java" />&ndash;&gt;-->
+<!--    </bean>-->
+
+
+
+
+
+<!--</beans>-->

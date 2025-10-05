@@ -17,6 +17,8 @@
     <file url="file://$PROJECT_DIR$/CompletableFeatureJava/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ConstructorReference/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ConstructorReference/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DIandIOC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DIandIOC/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DesignPattern/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DesignPattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EnumAndAnnotations/src/main/java" charset="UTF-8" />
@@ -35,6 +37,8 @@
     <file url="file://$PROJECT_DIR$/LambdaProgrammingJava/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MethodReferences/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MethodReferences/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MultiThreading/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MultiThreading/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MutableAndImmutableObjects/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MutableAndImmutableObjects/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/OptionalJavaProgramming/src/main/java" charset="UTF-8" />
@@ -45,6 +49,28 @@
     <file url="file://$PROJECT_DIR$/SealedJava/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SingletonPattern/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SingletonPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringAnnotationUsingJava/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringAnnotationUsingJava/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCore3TShapedSkills/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCore3TShapedSkills/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCoreAnnotationAutowire/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCoreAnnotationAutowire/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCoreOneshotYoutubeHyderabbas/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCoreOneshotYoutubeHyderabbas/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCoreTeluskoJava/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCoreTeluskoJava/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCoreTeluskoXMLNameSpace/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCoreTeluskoXMLNameSpace/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCoreTshpedSkills/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCoreTshpedSkills/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCoreXMLAnnotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCoreXMLAnnotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCoreXMLBFACTelusko/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCoreXMLBFACTelusko/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StaticKeywordConcept/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StaticKeywordConcept/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StreamAPIJava/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StreamAPIJava/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/StringJava/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/StringJava/src/main/resources" charset="UTF-8" />
   </component>

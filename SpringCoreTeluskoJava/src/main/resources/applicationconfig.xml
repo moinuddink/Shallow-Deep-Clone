@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id = "java" class="springcoreclass2.JavaAdvancedCourse"/>
+    <bean id = "devops" class="springcoreclass2.DevloperCourse"/>
+    <bean id = "spring" class="springcoreclass2.SpringCore"/>
+
+
+    <bean id = "telusko" class="springcoreclass2.TeluskoMalumKarlo">
+    <!--<property ref="devops"  name="subject"></property>-->
+        <constructor-arg ref="spring" name="subject"></constructor-arg>
+    </bean>
+
+</beans>

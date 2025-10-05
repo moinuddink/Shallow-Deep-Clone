@@ -1,0 +1,40 @@
+which is the base of all modules in spring ->SpringCore
+1)java configuration+annotation
+xml
+xml+annotation
+springboot+annotation
+
+buildtool
+Maven(pom.xml -->add the dependencies)
+
+Inversion of control
+it's a place where spring will create and manatain and manage all the objects
+Application context(interface) ->a plcae where spring will create and maintain the object
+BeanFactory(interface)
+
+
+setter injection means property tag
+constructor injection means contructor arg tag
+
+xml+Annotation
+
+Stereotype Annotations
+Any annotation which will be applied to the class are called as Stereotype Annotations
+
+@Componenet(if you apply this annotation to any class to create the bean of this classs)
+Example
+
+@Component
+class Alpha//if nothing is mentioned then beanid is alpha or else just say @Component("a")
+{
+
+}
+
+@service  ->@Component+service layer
+@Repository ->@Component+repo layer(DB)
+@controller ->@Component +weblayer (html+jsp)
+@RestController ->@Component+angular and react
+@Configuration ->@Component+configurations
+
+@Bean(it is not streotype)-->it is applied at method level
+

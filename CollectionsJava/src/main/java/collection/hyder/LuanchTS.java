@@ -7,7 +7,11 @@ public class LuanchTS {
     public static void main(String[] args) {
 
         TreeSet s = new TreeSet();
-
+/*
+* Treeset:
+* BST
+* Iterator
+* */
         s.add(100);
         s.add(50);
         s.add(150);

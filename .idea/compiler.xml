@@ -7,26 +7,39 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ClonePracticeJava" />
+        <module name="ComparatorVsComparale" />
+        <module name="SpringCoreTshpedSkills" />
+        <module name="LambdaProgrammingJava" />
+        <module name="SpringCoreAnnotationAutowire" />
+        <module name="MethodReferences" />
+        <module name="SpringCoreTeluskoJava" />
+        <module name="ArraysJava" />
+        <module name="DIandIOC" />
+        <module name="RecordJavaPractice" />
+        <module name="StaticKeywordConcept" />
+        <module name="SpringCoreXMLBFACTelusko" />
+        <module name="FunctionalProgramming" />
+        <module name="AbstractJava" />
+        <module name="Generics" />
+        <module name="MultiThreading" />
         <module name="ClonePracticeJava2" />
         <module name="SingletonPattern" />
         <module name="OptionalJavaProgramming" />
-        <module name="ComparatorVsComparale" />
+        <module name="StreamAPIJava" />
         <module name="MutableAndImmutableObjects" />
         <module name="ExceptionHandling" />
         <module name="JavaInterfaces" />
-        <module name="LambdaProgrammingJava" />
+        <module name="SpringCoreTeluskoXMLNameSpace" />
         <module name="ConstructorReference" />
-        <module name="MethodReferences" />
-        <module name="ArraysJava" />
+        <module name="SpringAnnotationUsingJava" />
         <module name="FunctionalProgrammingJava" />
         <module name="CompletableFeatureJava" />
         <module name="EnumAndAnnotations" />
-        <module name="RecordJavaPractice" />
+        <module name="SpringCore3TShapedSkills" />
+        <module name="SpringCoreOneshotYoutubeHyderabbas" />
         <module name="CollectionsJava" />
-        <module name="FunctionalProgramming" />
         <module name="StringJava" />
-        <module name="AbstractJava" />
-        <module name="Generics" />
+        <module name="SpringCoreXMLAnnotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

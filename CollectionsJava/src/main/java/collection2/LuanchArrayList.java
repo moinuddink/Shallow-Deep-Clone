@@ -11,6 +11,10 @@ public class LuanchArrayList {
         * ArrayList indexed based access is allowed
         * LinkedList indexed based access is allowed
         * ArrayList maintains the order of insertion
+        * duplicates are allowed
+        * null values are allowed
+        * true and false are also allowed
+        * Maintains the order of inseration
         * */
         ArrayList aList = new ArrayList(); //-->aList is the collection
         aList.add(44);//Object o = new Integer(44);
@@ -38,6 +42,8 @@ public class LuanchArrayList {
 
         aList2.add(1,"Moinuddin");
         System.out.println(aList2);
+
+
 
     }
 }

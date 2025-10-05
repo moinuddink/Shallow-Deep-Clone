@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <!--  <bean id = "java" class="springcoreclass2.JavaAdvancedCourse" primary="true"/>
+    <bean id = "devops" class="springcoreclass2.DevloperCourse" autowire-candidate="false"/>
+    <bean id = "spring" class="springcoreclass2.SpringCore" autowire-candidate="false"/>
+
+
+    <bean id = "telusko" class="springcoreclass2.TeluskoMalumKarlo" autowire="byType">
+    <bean id = "telusko" class="springcoreclass2.TeluskoMalumKarlo" autowire="constructor">-->
+
+    <bean id = "java" class="springcoreclass2.JavaAdvancedCourse" />
+    <bean id = "devops" class="springcoreclass2.DevloperCourse" />
+    <bean id = "spring" class="springcoreclass2.SpringCore" />
+
+
+    <bean id = "telusko" class="springcoreclass2.TeluskoMalumKarlo" autowire="byName">
+
+
+    </bean>
+
+</beans>

@@ -2,6 +2,14 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Java7and8features" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/design-patterns" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/devops-master-class" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/java-tutorial-for-beginners" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/master-spring-and-spring-boot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/microservices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-microservices-v3" vcs="Git" />
   </component>
 </project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="emp1" class="util.Employee">
+
+    <constructor-arg value="1"/>
+    <constructor-arg value="Harsh"/>
+    <constructor-arg value="45454.4"/>
+    <constructor-arg value="Udaipur"/>
+
+
+</bean>
+
+   <!-- <bean id="emp2" class="util.Employee">
+
+        <constructor-arg name = "name" value="Sohail"/>
+        <constructor-arg name = "city" value="Hyderabad"/>
+        <constructor-arg name = "id" value="4"/>
+        <constructor-arg name = "salary" value="1999.00"/>-->
+    <bean id="emp2" class="util.Employee">
+
+        <constructor-arg index="1"  value="Sohail"/>
+        <constructor-arg index="3" value="Hyderabad"/>
+        <constructor-arg index="0"  value="4"/>
+        <constructor-arg index="2"  value="1999.00"/>
+
+
+    </bean>
+
+    <bean id="emp3" class="util.Employee">
+
+        <constructor-arg index="1"  value="Ibrahim"/>
+        <constructor-arg index="3" value="New Jersey"/>
+        <constructor-arg index="0"  value="100"/>
+        <constructor-arg index="2"  value="200000.00"/>
+
+
+    </bean>
+
+
+</beans>

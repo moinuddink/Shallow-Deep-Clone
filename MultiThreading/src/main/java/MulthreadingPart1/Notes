@@ -1,0 +1,100 @@
+1.Multithreading
+
+JVM
+RuntimeStack Area->that has to be loaded on stack area
+
+anything and everything will be written inside the method upon the invocation of the method a stack frame will be created
+
+a process
+
+Thread-line of execution
+
+What is thread?
+
+how to create multiple threads?
+
+Runnable interface(understand this topic) with lambda expression implementation
+
+interpret(producer and consumer)
+
+deadlock phenonmeno
+
+race condition
+
+synchronize block synchronize method
+
+multipthreading using eclipse debuggers
+
+Entire discussion is a thread which is getting created automatically
+
+what is the name of the thread which is getting created automaticlaly-->main(Priority is 5 which is in between 1 to 10)
+
+The threads in java is handled by Thread class which is predefined class in java libraray
+
+Runnable(interface -->FI)
+
+In Java you can create threads in three different ways
+1)By default to manage the thread is Thread(class) implemting Runnable
+create object/instance of thread
+a new thread will be created in java
+classes will extend thread class
+creating a object of alpha,beta,gamma(extra one thread will be created for each)
+we can create extra thread in java to avoid single threaded programming
+to create extra thread we have to create object of thread class
+what that thread has to do/activity/work will be available in run method
+
+
+2)apart from the main thread you have to define the work of those thread in run method(then they cann't execute becuase it is the rule)
+
+3)start()
+how to give life to thread is a.start becuase thread no life
+
+the moment you give life to a thread jvm will internally maintains threadscheduler (jvm is the boss)
+
+cpu time is not getting waste
+
+
+extends Thread
+implements Runnable
+
+Resource is common i will create multiple threads
+
+if a common resource has to be taken care by multithreading multiple threads race towards the completion of the task w/o
+bothering weather it is consistent data or not it just towards to the (race condition in multhreading where mutliple threads towards cpu
+life cycle)
+
+Locking
+method level locking(Synchornized)-->at one time multiple threads is not possible which is thread safe(one thread at a time)
+StringBuffer
+StringBuilder
+block level locking
+
+How to create new thread in java?
+where we have to define the task new thread?
+can we execute multiple threads and single run method?
+should we call the run method manually?
+if we call the run method manually in that case the program will behave as single threaded
+if multiple thread has to use one common resource ?
+is the default behaviour of thread acceptable?
+how to control this situation race condition?
+Can we lock a specifice part of the method?
+cas we synchronize the whole entire method?
+in a synchornize env at a time at any give point of time how many threads can operate?
+
+
+in synchronize env one thread can execute
+states of thread
+1)New State ->runnable ->running->dead
+
+running->sleep
+->blocked(no resources
+->wait(notify,notifyall)
+
+solution for deadlock in multithreading is proper use of synchornization
+
+Inter and Intra thread communication
+inter thread communication is acheived by wait,notify,notifyAll by demonstrating producer and consumer problem
+
+
+
+

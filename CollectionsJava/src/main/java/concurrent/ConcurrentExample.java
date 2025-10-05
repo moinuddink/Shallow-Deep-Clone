@@ -20,5 +20,6 @@ public class ConcurrentExample {
       }
 
 
+        System.out.println(al);
     }
 }

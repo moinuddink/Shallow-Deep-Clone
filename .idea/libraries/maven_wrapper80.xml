@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="maven-wrapper80">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spring/example_42/.mvn/wrapper/maven-wrapper.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

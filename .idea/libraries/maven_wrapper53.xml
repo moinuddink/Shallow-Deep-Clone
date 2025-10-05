@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="maven-wrapper53">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/microservices/section_20/message/.mvn/wrapper/maven-wrapper.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
